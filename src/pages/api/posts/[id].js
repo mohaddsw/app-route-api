@@ -16,6 +16,9 @@ const handler=(req,res)=>{
             res.status(200).json({message:"delete user is successfuly"})
            }
         }
+        case "PUT":{
+            
+        }
     }
 }
 export default handler
